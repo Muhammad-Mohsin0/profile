@@ -7,7 +7,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(117, 83, 117);
+    background: rgb(105, 191, 218);
 }
 .container{
     margin-top: 20px;
@@ -15,6 +15,7 @@ body{
     width: 600px;
     height: 900px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 .header{
     border-radius: 10px 10px;
@@ -26,11 +27,18 @@ body{
     width: 150px;
     border-radius: 100%;
 }
+h1{
+    margin-top: 2%;
+}
 .about{
     margin-left: 15px;
     margin-right: 15px;
     padding: 20px;
     background:  rgb(238, 237, 236);
+}
+.about p{
+    margin-top: 2%;
+
 }
 .work{
     margin-left: 15px;
@@ -74,6 +82,9 @@ body{
     height: 110%;
     border: 2px solid rgb(124, 122, 122);
     margin-bottom: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 .wo.w3{
     background-image: url("shoukat.jpeg");
@@ -86,6 +97,9 @@ body{
     width: 65%;
     height: 110%;
     border: 2px solid rgb(124, 122, 122);
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 .wo.w4{
     background-image: url("billion\ tree.jpg");  
@@ -96,15 +110,20 @@ body{
     text-align:center;
     width: 65%;
     height: 110%;
-
     border: 2px solid rgb(124, 122, 122);
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 .wo.w1:hover, .wo.w2:hover, .wo.w3:hover, .wo.w4:hover{
     transform: scale(1.1);
     transition:.5s;
     opacity: 0.8;
 }
-a{
+.grid a{
+    background-color: black;
+    opacity: 70%;
+    border-radius: 10px;
     font-size: 20px;
     color: #ffffff;
     font-family: sans-serif;
@@ -115,6 +134,7 @@ a{
 .footer{
     text-align: center;
     background:  rgb(238, 237, 236);
+    margin-top: 5px;
     height: 3%;
     border-radius: 10px;
 }
